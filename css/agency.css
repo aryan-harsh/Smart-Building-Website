@@ -161,7 +161,7 @@ font-family: 'Permanent Marker', cursive;
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: red;
   background: url("../img/homebg1.jpeg") no-repeat center center fixed;
   height: 100%;
   overflow: hidden;
@@ -207,7 +207,8 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat Subrayada', sans-serif;
+
   }
 }
 
