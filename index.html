@@ -13,6 +13,15 @@
   <!-- Bootstrap CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
+    
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script-->
+
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -28,10 +37,25 @@
 
 </head>
 
-<body id="page-top">
 
+<!-- ChatBOT -->
+<nav style="width:320px;max-height:80%;min-height: 32px" class="navbar navbar-inverse navbar-fixed-bottom" style="padding-left: 0px; padding-right: 0px; margin-left: 0px; padding-right: 0px; " id="chatbot">
+  <div class="container-fluid" id="chatbot">
+    <div class="navbar-header navbar-right ">
+      <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#demo" aria-expanded="false"> Click here  to  maximize or minimize chatbot.</button>
+  <div id="demo" class="collapse" style="height: 10px">
+    
+      <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/b23ee3b1-003e-4f02-9e8f-1eed0125edf0"></iframe>
+      
+  </div>
+    </div>
+    
+  </div>
+</nav>
+
+<body id="page-top">
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-dark fixed-top navbar-expand-lg " id="mainNav">
     <div class="container">
       <IMG SRC="logo.png" ALT="some text"  HEIGHT=50 hspace="20">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">SmartBuild</a>
